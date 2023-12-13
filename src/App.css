@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+/* RANGE BUTTON */
+.rangeButton {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.rangeButton button {
+  width: 20px;
+  height: 20px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 0px;
+  color: #1789e1;
+  user-select: none;
+}
+
+.rangeButton button:disabled {
+  color: #808080;
+}
+
+/* DIALOG CSS */
+
+.dialogButtons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dialogButtons button {
+  background-color: #1789e1;
+  border: 1px solid white;
+  width: 50%;
+  height: 2.8rem;
+  color: white;
+  font-weight: bold;
+}
+
+.dialogButtons button:disabled {
+  background-color: #808080;
+}
+
+/* CARD STYLES */
+.vendingOption img {
+  background-color: #e5eaef;
+}
+
+.vendingOption {
+  margin-top: 20px;
+  max-width: 345px;
+}
+
+.vendingOptionContent {
+  background-color: #e5eaef;
+  user-select: none;
+}
+
+.vendingOption .vendingOptionMedia {
+  object-fit: scale-down;
+  width: 300px;
+  height: 140px;
+}
+
+/* CARDS WRAPPER */
+.cardsWrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* APP CONTAINER */
+.appContainer {
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+/* DIALOG */
+.dialog .MuiDialog-paper {
+  width: 80%;
+  max-height: 550px;
+}
+
+.dialogTitle {
+  align-self: center;
+}
+
+.MuiDialog-paper .dialogDivider {
+  margin: 1rem 0;
+}
+
+/* Loader */
+.loaderWrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
